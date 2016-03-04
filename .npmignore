@@ -1,0 +1,16 @@
+coverage.html
+lib-cov/
+node_modules
+.travis.yml
+.drone.yml
+examples/
+Makefile
+.jshintrc
+.jshintignore
+coverage/
+*.swp
+*.swo
+*.swn
+*.swl
+*.swm
+.sw*
