@@ -1,6 +1,6 @@
 {
   "name": "macaca-ios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "macaca-ios",
   "keywords": [
     "macaca",
@@ -18,6 +18,7 @@
     "ios-utils": "~1.0.0",
     "macaca-utils": "~0.1.8",
     "reliable-logger": "~1.0.7",
+    "remote-debugger": "~1.0.0",
     "webdriver-dfn-error-code": "~1.0.1",
     "xctest-client": "~1.0.0"
   },
