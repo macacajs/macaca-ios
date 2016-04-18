@@ -8,6 +8,7 @@ Makefile
 .jshintrc
 .jshintignore
 coverage/
+logs/
 *.swp
 *.swo
 *.swn
