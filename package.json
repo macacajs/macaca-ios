@@ -6,7 +6,7 @@
     "macaca",
     "ios"
   ],
-  "main": "index.js",
+  "main": "./lib/macaca-ios",
   "repository": {
     "type": "git",
     "url": "git://github.com/macacajs/macaca-ios.git"
