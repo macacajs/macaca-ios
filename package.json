@@ -1,7 +1,7 @@
 {
   "name": "macaca-ios",
-  "version": "1.0.32",
-  "description": "macaca-ios",
+  "version": "1.0.33",
+  "description": "Macaca iOS driver",
   "keywords": [
     "macaca",
     "ios"
@@ -38,8 +38,5 @@
     "jshint"
   ],
   "homepage": "https://github.com/macacajs/macaca-ios",
-  "author": "macacajs",
-  "email": "macacajs@126.com",
-  "blog": "http://xdf.me",
   "license": "MIT"
 }

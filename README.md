@@ -17,10 +17,10 @@
 [download-image]: https://img.shields.io/npm/dm/macaca-ios.svg?style=flat-square
 [download-url]: https://npmjs.org/package/macaca-ios
 
-> macaca ios
+> Macaca iOS driver
 
 ## Installment
 
 ```bash
-$ npm i macaca-ios --save
+$ npm i macaca-ios -g
 ```
