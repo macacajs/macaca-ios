@@ -9,9 +9,5 @@ Makefile
 .jshintignore
 coverage/
 logs/
-*.swp
-*.swo
-*.swn
-*.swl
-*.swm
-.sw*
+*.sw*
+*.un~
