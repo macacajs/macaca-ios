@@ -1,6 +1,6 @@
 {
   "name": "macaca-ios",
-  "version": "1.0.46",
+  "version": "1.0.48",
   "description": "Macaca iOS driver",
   "keywords": [
     "macaca",
@@ -14,12 +14,13 @@
   "dependencies": {
     "co": "~4.6.0",
     "driver-base": "~0.1.0",
+    "ios-device": "^0.1.2",
     "ios-simulator": "~1.0.0",
     "ios-utils": "~1.0.0",
     "macaca-utils": "~0.1.8",
     "remote-debugger": "~1.0.0",
     "webdriver-dfn-error-code": "~1.0.1",
-    "xctest-client": "1.0.27",
+    "xctest-client": "1.0.29",
     "xlogger": "~1.0.0"
   },
   "devDependencies": {
