@@ -30,3 +30,13 @@ Some things that will increase the chance that your pull request is accepted:
 
 [style]: https://github.com/airbnb/javascript
 [commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
+## Link Global To Local
+
+``` bash
+$ npm link
+# check linked success
+$ cd $(npm root -g)
+$ ls -l
+# now macaca-ios in global is linked to your local
+```
