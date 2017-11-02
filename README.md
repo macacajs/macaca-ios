@@ -21,6 +21,6 @@
 
 ## Installment
 
-```bash
+``` bash
 $ npm i macaca-ios -g
 ```
