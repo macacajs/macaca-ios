@@ -1,7 +1,9 @@
 os: osx
 language: node_js
 node_js:
-  - "4"
+  - 7
 sudo: false
-script: "make travis"
-after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
+script:
+  - make travis
+after_script:
+  - npm install coveralls@2 && cat ./coverage/lcov.info | coveralls

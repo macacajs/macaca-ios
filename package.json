@@ -17,7 +17,7 @@
     "ios-device": "^0.1.2",
     "ios-simulator": "~1.0.0",
     "ios-utils": "~1.0.0",
-    "macaca-utils": "~0.1.8",
+    "macaca-utils": "^1.0.0",
     "remote-debugger": "~1.0.0",
     "webdriver-dfn-error-code": "~1.0.1",
     "xctestwd": "~1.3.4",
