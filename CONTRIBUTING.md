@@ -12,7 +12,7 @@ Set up your machine:
 
 Then make your change and make sure the tests pass:
 
-    make test
+    npm run test
 
 Push to your fork and [submit a pull request][pr].
 
@@ -23,13 +23,6 @@ within three business days (and, typically, one business day). We may suggest
 some changes or improvements or alternatives.
 
 Some things that will increase the chance that your pull request is accepted:
-
-* Write tests.
-* Follow [JavaScript Style Guide][style].
-* Write a [good commit message][commit].
-
-[style]: https://github.com/airbnb/javascript
-[commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 ## Link Global To Local
 

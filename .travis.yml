@@ -1,9 +1,9 @@
-os: osx
-language: node_js
-node_js:
-  - 7
-sudo: false
+language:
+  - swift
+osx_image:
+  - xcode9
 script:
-  - make travis
+  - npm i
+  - npm run ci
 after_script:
   - npm install coveralls@2 && cat ./coverage/lcov.info | coveralls

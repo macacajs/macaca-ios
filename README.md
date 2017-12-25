@@ -21,6 +21,10 @@
 
 ## Installment
 
-``` bash
+```bash
 $ npm i macaca-ios -g
 ```
+
+## License
+
+The MIT License (MIT)
