@@ -25,19 +25,19 @@
   },
   "devDependencies": {
     "co-mocha": "*",
+    "eslint": "^4.14.0",
+    "eslint-plugin-mocha": "^4.11.0",
     "istanbul": "*",
-    "jshint": "^2.9.3",
     "mocha": "*",
-    "pre-commit": "*",
-    "should": "*"
+    "pre-commit": "*"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "ci": "npm run lint && npm run test",
+    "test": "istanbul cover `npm bin`/_mocha",
+    "lint": "eslint --fix lib test"
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
-  "homepage": "https://github.com/macacajs/macaca-ios",
   "license": "MIT"
 }
