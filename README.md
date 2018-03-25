@@ -25,6 +25,17 @@
 $ npm i macaca-ios -g
 ```
 
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars1.githubusercontent.com/u/1044425?v=4" width="100px;"/><br/><sub><b>ziczhu</b></sub>](https://github.com/ziczhu)<br/>|[<img src="https://avatars2.githubusercontent.com/u/11438871?v=4" width="100px;"/><br/><sub><b>baozhida</b></sub>](https://github.com/baozhida)<br/>|[<img src="https://avatars0.githubusercontent.com/u/4576123?v=4" width="100px;"/><br/><sub><b>CodeToSurvive1</b></sub>](https://github.com/CodeToSurvive1)<br/>|[<img src="https://avatars0.githubusercontent.com/u/8198256?v=4" width="100px;"/><br/><sub><b>SamuelZhaoY</b></sub>](https://github.com/SamuelZhaoY)<br/>
+| :---: | :---: | :---: | :---: | :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor.git), welcome to join in and feel free to contribute.
+<!-- GITCONTRIBUTOR_END -->
+
 ## License
 
 The MIT License (MIT)
