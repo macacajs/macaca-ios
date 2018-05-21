@@ -1,6 +1,6 @@
 {
   "name": "macaca-ios",
-  "version": "2.0.33",
+  "version": "2.0.34",
   "description": "Macaca iOS driver",
   "keywords": [
     "macaca",
@@ -14,7 +14,7 @@
   "dependencies": {
     "co": "~4.6.0",
     "driver-base": "~0.1.0",
-    "ios-device": "^0.1.2",
+    "ios-device": "^1.0.0",
     "ios-simulator": "~1.0.0",
     "ios-utils": "~1.0.0",
     "macaca-utils": "^1.0.0",
