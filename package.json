@@ -16,7 +16,7 @@
     "driver-base": "~0.1.0",
     "ios-device": "^1.0.0",
     "ios-simulator": "~1.0.0",
-    "ios-utils": "~1.0.0",
+    "ios-utils": "~1.0.9",
     "macaca-utils": "1",
     "remote-debugger": "~1.0.0",
     "webdriver-dfn-error-code": "~1.0.1",
