@@ -6,13 +6,13 @@
 [![npm download][download-image]][download-url]
 [![CircleCI](https://circleci.com/gh/macacajs/macaca-ios.svg?style=svg)](https://circleci.com/gh/macacajs/macaca-ios)
 
-[npm-image]: https://img.shields.io/npm/v/macaca-ios.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/macaca-ios.svg
 [npm-url]: https://npmjs.org/package/macaca-ios
-[coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-ios.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-ios.svg
 [coveralls-url]: https://coveralls.io/r/macacajs/macaca-ios?branch=master
-[node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg
 [node-url]: http://nodejs.org/download/
-[download-image]: https://img.shields.io/npm/dm/macaca-ios.svg?style=flat-square
+[download-image]: https://img.shields.io/npm/dm/macaca-ios.svg
 [download-url]: https://npmjs.org/package/macaca-ios
 
 > Macaca iOS driver
@@ -27,11 +27,12 @@ $ npm i macaca-ios -g
 
 ## Contributors
 
-|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars1.githubusercontent.com/u/1044425?v=4" width="100px;"/><br/><sub><b>ziczhu</b></sub>](https://github.com/ziczhu)<br/>|[<img src="https://avatars2.githubusercontent.com/u/11438871?v=4" width="100px;"/><br/><sub><b>baozhida</b></sub>](https://github.com/baozhida)<br/>|[<img src="https://avatars0.githubusercontent.com/u/4576123?v=4" width="100px;"/><br/><sub><b>CodeToSurvive1</b></sub>](https://github.com/CodeToSurvive1)<br/>|[<img src="https://avatars0.githubusercontent.com/u/8198256?v=4" width="100px;"/><br/><sub><b>SamuelZhaoY</b></sub>](https://github.com/SamuelZhaoY)<br/>|[<img src="https://avatars3.githubusercontent.com/u/8613485?v=4" width="100px;"/><br/><sub><b>syl0224</b></sub>](https://github.com/syl0224)<br/>
+|[<img src="https://avatars.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars.githubusercontent.com/u/1044425?v=4" width="100px;"/><br/><sub><b>ziczhu</b></sub>](https://github.com/ziczhu)<br/>|[<img src="https://avatars.githubusercontent.com/u/8198256?v=4" width="100px;"/><br/><sub><b>SamuelZhaoY</b></sub>](https://github.com/SamuelZhaoY)<br/>|[<img src="https://avatars.githubusercontent.com/u/4576123?v=4" width="100px;"/><br/><sub><b>CodeToSurvive1</b></sub>](https://github.com/CodeToSurvive1)<br/>|[<img src="https://avatars.githubusercontent.com/u/11438871?v=4" width="100px;"/><br/><sub><b>baozhida</b></sub>](https://github.com/baozhida)<br/>|[<img src="https://avatars.githubusercontent.com/u/8613485?v=4" width="100px;"/><br/><sub><b>syl0224</b></sub>](https://github.com/syl0224)<br/>|
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor.git), welcome to join in and feel free to contribute.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sat Nov 06 2021 23:29:37 GMT+0800`.
+
 <!-- GITCONTRIBUTOR_END -->
 
 ## License
