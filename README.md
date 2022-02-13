@@ -31,7 +31,7 @@ $ npm i macaca-ios -g
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sat Nov 06 2021 23:29:37 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sun Feb 13 2022 22:33:23 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 
