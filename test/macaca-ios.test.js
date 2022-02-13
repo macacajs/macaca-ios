@@ -1,9 +1,10 @@
 'use strict';
 
-var IOS = require('../lib/macaca-ios');
+const assert = require('assert');
+const IOS = require('../lib/macaca-ios');
 
-describe('test', function() {
-  it('should be ok', function() {
-    IOS.should.be.ok();
+describe('test', () => {
+  it('should be ok', () => {
+    assert(IOS);
   });
 });
