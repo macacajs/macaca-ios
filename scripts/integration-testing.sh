@@ -1,9 +1,10 @@
 #!/bin/bash
 
-brew install nvm > /dev/null 2>&1
-source $(brew --prefix nvm)/nvm.sh
-nvm install 8
+brew install ios-webkit-debug-proxy > /dev/null 2>&1
 
-npm i macaca-scripts -g
+git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
+cd sample-nodejs
 
-macaca-scripts integration-test-ios
+npm i npm@6 -g
+npm i
+npm run test:ios

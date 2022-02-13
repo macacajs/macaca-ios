@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  
+  push:
+    branches:
+      - '**'
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  Runner:
+    timeout-minutes: 10
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ macOS-latest ]
+        node-version: [ 8, 16 ]
+    steps:
+      - name: Checkout Git Source
+        uses: actions/checkout@v3
+      
+      - name: Prepare iOS Device
+        run: |
+          set -eo pipefail
+          xcodebuild -workspace Calculator.xcworkspace \
+                      -scheme Calculator\ iOS \
+                      -destination platform=iOS\ Simulator,OS=13.3,name=iPhone\ 11 \
+                      clean test | xcpretty
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Continuous integration
+        run: |
+          chmod 755 ./scripts/integration-testing.sh
+          bash ./scripts/integration-testing.sh

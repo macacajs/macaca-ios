@@ -27,13 +27,12 @@
     "xlogger": "1"
   },
   "devDependencies": {
-    "co-mocha": "*",
     "eslint": "^4.14.0",
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "1",
+    "husky": "^7.0.4",
     "istanbul": "*",
-    "mocha": "*",
-    "pre-commit": "*"
+    "mocha": "*"
   },
   "scripts": {
     "ci": "npm run lint && npm run test",
@@ -41,8 +40,10 @@
     "lint": "eslint --fix lib test",
     "contributor": "git-contributor"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "license": "MIT"
 }
