@@ -1,6 +1,7 @@
 # macaca-ios
 
 [![NPM version][npm-image]][npm-url]
+[![CI][CI-image]][CI-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
@@ -8,6 +9,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/macaca-ios.svg
 [npm-url]: https://npmjs.org/package/macaca-ios
+[CI-image]: https://github.com/macacajs/macaca-ios/actions/workflows/ci.yml/badge.svg
+[CI-url]: https://github.com/macacajs/macaca-ios/actions/workflows/ci.yml
 [coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-ios.svg
 [coveralls-url]: https://coveralls.io/r/macacajs/macaca-ios?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg
